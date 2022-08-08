@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/school-website-frontend/static/css/main.f359a373.css",
-    "main.js": "/school-website-frontend/static/js/main.a02397e4.js",
-    "static/js/787.c0ea87ef.chunk.js": "/school-website-frontend/static/js/787.c0ea87ef.chunk.js",
-    "index.html": "/school-website-frontend/index.html",
-    "main.f359a373.css.map": "/school-website-frontend/static/css/main.f359a373.css.map",
-    "main.a02397e4.js.map": "/school-website-frontend/static/js/main.a02397e4.js.map",
-    "787.c0ea87ef.chunk.js.map": "/school-website-frontend/static/js/787.c0ea87ef.chunk.js.map"
+    "main.css": "https://harshal-99.github.io/school-website-frontend/static/css/main.f359a373.css",
+    "main.js": "https://harshal-99.github.io/school-website-frontend/static/js/main.964fe492.js",
+    "static/js/787.c0ea87ef.chunk.js": "https://harshal-99.github.io/school-website-frontend/static/js/787.c0ea87ef.chunk.js",
+    "index.html": "https://harshal-99.github.io/school-website-frontend/index.html",
+    "main.f359a373.css.map": "https://harshal-99.github.io/school-website-frontend/static/css/main.f359a373.css.map",
+    "main.964fe492.js.map": "https://harshal-99.github.io/school-website-frontend/static/js/main.964fe492.js.map",
+    "787.c0ea87ef.chunk.js.map": "https://harshal-99.github.io/school-website-frontend/static/js/787.c0ea87ef.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f359a373.css",
-    "static/js/main.a02397e4.js"
+    "static/js/main.964fe492.js"
   ]
 }
