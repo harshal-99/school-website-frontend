@@ -1,4 +1,4 @@
-import {BrowserRouter, Link, Route, Routes} from "react-router-dom";
+import {BrowserRouter, HashRouter, Link, Route, Routes} from "react-router-dom";
 import {useAuth} from "./components/Auth";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
@@ -23,7 +23,7 @@ const App = () => {
 
 	return (
 		<div>
-			<BrowserRouter basename={process.env.PUBLIC_URL}>
+			<HashRouter>
 				<nav className={classes.nav}>
 					<div>School Notice Board</div>
 					{auth.user
@@ -43,7 +43,7 @@ const App = () => {
 					<Route path="/login" element={<Login/>}/>
 					<Route path="/signup" element={<Signup/>}/>
 				</Routes>
-			</BrowserRouter>
+			</HashRouter>
 		</div>
 	);
 }
