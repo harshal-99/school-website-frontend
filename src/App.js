@@ -23,7 +23,7 @@ const App = () => {
 
 	return (
 		<div>
-			<BrowserRouter>
+			<BrowserRouter basename={process.env.PUBLIC_URL}>
 				<nav className={classes.nav}>
 					<div>School Notice Board</div>
 					{auth.user
