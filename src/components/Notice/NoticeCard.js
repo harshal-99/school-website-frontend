@@ -1,7 +1,6 @@
 import {useAuth} from "../Auth";
 import {useState} from "react";
 import NoticeService from "../../service/notice.service";
-import classes from "./NoticeCard.module.css";
 
 const NoticeCard = ({notice, handleNoticeUpdate, handleNoticeDelete}) => {
 	const auth = useAuth()
